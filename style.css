@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body {
+    background-color: rgb(42, 41, 41);
+
+}
+/* -----------------Esto pertenece al estilo del header----------------- */
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 7rem;
+}
+.lista {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lista li {
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+}
+
+.a:hover {
+    text-decoration: underline 0.2rem white;
+}
+.p {
+    background-color: rgba(255, 208, 0, 0.832);
+    border-radius: 50%;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.F {
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+}
+.F:hover {
+    background-color: rgba(169, 169, 169, 0.262);
+}
+/* -----------------Acá empieza el Main----------------- */
+.main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 86vh;
+    align-items: center;
+    flex-direction: column;
+}
+.title {
+    color: white;
+    font-size: 6rem;
+    margin: 3rem;
+}
+.title:hover{
+    text-decoration: underline 0.3rem;
+
+}
+.barraDeBúsqueda {
+    width: 60%;
+    height: 3.4rem;
+    border-radius: 30px;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 2rem;
+}
+.barraDeBúsqueda:hover {
+    text-decoration: underline 1px black;
+}
+.listMain {
+    list-style: none;
+    display: inline;
+    align-items: center;
+    margin-top: 2rem ;
+}
+.listMain li{
+    font-size: 1.9rem;
+    background-color: rgba(255, 255, 255, 0.247);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5rem;
+    color: white;
+}
+/* ------------------------Acá empieza el Diseño del Footer------------------------ */
+.footer {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: auto;
+}
+.footer span{
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.535);
+    color: rgba(127, 255, 212, 0.303);
+    font-size: 1.4rem;
+    padding: 1.4rem;
+    margin: 1.4rem;
+}
+.footer span:hover{
+    background-color: rgba(250, 235, 215, 0.492);
+
+}

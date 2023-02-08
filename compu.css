@@ -1,0 +1,25 @@
+.title {
+    font-size: 10rem;
+}
+.lista {
+    justify-content:end;
+    width: 100%;
+    
+}
+.lista li{
+    font-size: 2.5rem;
+    
+}
+.listMain {
+    display: flex;
+}
+.listMain li {
+    font-size: 2.3rem;
+    padding: 1.4rem;
+}
+.main {
+    height: 78vh;
+}
+.barraDeBúsqueda {
+    width: 47%;
+}
